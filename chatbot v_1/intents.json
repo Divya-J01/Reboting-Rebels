@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell variety kind of item",
+        "We have Mobiles, Computers, TV, Appliances, Electronics ,Men's Fashion ,Women's Fashion, Home, Kitchen, Pets, Beauty, Health, Grocery, Sports, Fitness, Bags, Luggage, Toys, Baby Products, Kids' Fashion, Car, Motorbike, Industrial, Books, Movies, Music & Video Games"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit and debit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-4 days",
+        "Shipping usually takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "return",
+      "patterns": [
+        "I want to return a product",
+        "Their is product which i want to return",
+        "I am not happy with the product. I want this product to be return."
+      ],
+      "responses": [
+        "We accept the return product under policy.",
+        "We accept return of the product under these circumstances.",
+        "We’re disappointed this product didn’t meet your expectation, but certainly we will accept."
+      ]
+    }
+  ]
+}
