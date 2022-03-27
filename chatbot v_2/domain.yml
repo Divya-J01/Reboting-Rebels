@@ -1,0 +1,66 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - buy
+  - products
+  - payment
+  - delivery
+  - return
+  - thanks
+  - affirm
+  - bot_challenge
+  
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+  - text: "Hey :-)"
+  - text: "Hello, thanks for visiting"
+  - text: "Hi there, what can I do for you?"
+        
+
+  utter_products_available:
+  - text: "Here's a link to check out our products! https://www.amazon.in/" 
+  
+
+  utter_confirmation:
+  - text: "Do you want to buy this"
+
+  utter_buy_this:
+  - text: "Adding to cart"
+
+  utter_goodbye:
+  - text: "Bye! have a nice day"
+  - text: "See you later, thanks for visiting"
+  - text: "Have a nice day"
+  - text: "Bye! Come back again soon."
+
+  utter_thanks:
+  - text: "Happy to help!"
+  - text: "Any time!"
+  - text: "My pleasure"
+
+  utter_payment:
+  - text: "We accept VISA, Mastercard and Paypal"
+  - text: "We accept most major credit and debit cards, and Paypal"
+
+  utter_delivery:
+  - text: "Delivery usually takes 2-4 days"
+  - text: "Shipping usually takes 2-4 days"
+
+  utter_return: 
+  - text: "We accept the return product under policy."
+  - text: "We accept return of the product under these circumstances."
+  - text: "We’re disappointed this product didn’t meet your expectation, but certainly we will accept."
+
+  utter_iamabot:
+  - text: "I am a bot."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
