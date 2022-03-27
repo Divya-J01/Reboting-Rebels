@@ -1,0 +1,8 @@
+pip install "Keras==2.6"
+pip install "tensorflow==2.6.1"
+pip install spacy
+pip install nltk
+pip install flask
+pip install rasa
+pip install flask_sqlalchemy
+pip install sqlalchemy
