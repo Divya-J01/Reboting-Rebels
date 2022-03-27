@@ -25,4 +25,4 @@ Let's build a E-commerce application that has a very interactive interface for t
 <a href="https://www.linkedin.com/in/dimple-k-1b69b0191/" >Dimple K</a>
 
 ->
-<a href= "https://www.linkedin.com/in/anurag-de-404s-retr0/">Anurag De</a>(me)
+<a href= "https://www.linkedin.com/in/anurag-de-404s-retr0/">Anurag De</a>
