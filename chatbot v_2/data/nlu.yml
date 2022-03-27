@@ -1,0 +1,87 @@
+version: "3.0"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: products
+  examples: |
+    - what products are available here?
+    - what can I get here?
+    - Which items do you have?
+    - What kinds of items are there?
+    - What do you sell?
+
+- intent: payment
+  examples: |
+    - Do you take credit cards?
+    - Do you accept Mastercard?
+    - Can I pay with Paypal?
+    - Are you cash only?
+
+- intent: delivery
+  examples: |
+    - How long does delivery take?
+    - How long does shipping take?
+    - When do I get my delivery?
+
+- intent: return
+  examples: |
+    - I want to return a product
+    - Their is product which i want to return
+    - I am not happy with the product. I want this product to be return.
+
+- intent: goodbye
+  examples: |
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+
+- intent: thanks
+  examples: |
+    - Thanks 
+    - Thank you
+    - That's helpful 
+    - Thank's a lot!
+
+- intent: buy
+  examples: |
+    - i want to buy this
+    - buy
+    - i want to get this
+    
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

@@ -1,0 +1,27 @@
+version: "3.0"
+
+stories:
+
+- story: Ecommerce
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thanks
+  - action: utter_thanks
+  - intent: payment
+  - action: utter_payment
+  - intent: return
+  - action: utter_return
+  - intent: delivery
+  - action: utter_delivery
+  - intent: thanks
+  - action: utter_thanks
+  - intent: products
+  - action: utter_products_available
+  - intent: buy
+  - action: utter_confirmation
+  - intent: affirm
+  - action: utter_buy_this
+  - intent: goodbye
+  - action: utter_goodbye
+
